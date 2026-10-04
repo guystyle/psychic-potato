@@ -65,7 +65,7 @@ for (k,S,E),(o,s0,d) in zip(SEG,offs):
         caps.append((st,en,[l.rstrip(".,?") for l in lines]))
 hdr=open("ti_cyan.ass").read().split("[Events]")[0]+"[Events]\nFormat: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text\n"
 ev=[f"Dialogue: 1,{ts(0)},{ts(3.4)},Hook,,0,0,0,,{{\\fad(150,200)}}EDC 스태프 출근길\\N나만 못 받은 연락",
-    f"Dialogue: 1,{ts(TOTAL-2.4)},{ts(TOTAL)},Hook,,0,0,0,,{{\\fad(150,0)}}EDC 가는 친구한테\\N보내줘"]
+]
 for st,en,lines in caps: ev+=box_events(ts(st),ts(en),lines,hl)
 open("hero.ass","w").write(hdr+"\n".join(ev)+"\n")
 print("total",round(TOTAL,1),"caps",len(caps))

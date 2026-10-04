@@ -12,7 +12,6 @@ Style: Hook,Black Han Sans,136,&H00101010,&H00101010,&H00FFE500,&H00FFE500,0,0,0
 [Events]
 Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
 Dialogue: 1,0:00:00.00,0:00:03.40,Hook,,0,0,0,,{\fad(150,200)}EDC 스태프 출근길\N나만 못 받은 연락
-Dialogue: 1,0:00:40.51,0:00:42.91,Hook,,0,0,0,,{\fad(150,0)}EDC 가는 친구한테\N보내줘
 Dialogue: 1,0:00:00.04,0:00:02.22,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&H000000&\1a&H8C&\3c&HFFE500&\3a&H00&\bord4\shad0}m 250 1262 l 830 1262 830 1450 250 1450{\p0}
 Dialogue: 2,0:00:00.04,0:00:02.22,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 239 1251 l 261 1251 261 1273 239 1273{\p0}
 Dialogue: 2,0:00:00.04,0:00:02.22,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 819 1251 l 841 1251 841 1273 819 1273{\p0}
