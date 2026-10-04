@@ -62,7 +62,7 @@ for si,((k,S,E),(o,s0,d)) in enumerate(zip(SEG,offs)):
         en=o+(min(nxt,E+0.1)-s0)
         en=max(en,st+0.5); en=min(en,o+d)
         lines=wrap2([x[2].rstrip(".,?") if False else x[2] for x in g])
-        caps.append((st,en,[l.rstrip(".,?") for l in lines],si," ".join(x[2] for x in g)))
+        caps.append((st,en,[l.rstrip(".,?") for l in lines],si,g))
 hdr=open("ti_cyan.ass").read().split("[Events]")[0]+"[Events]\nFormat: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text\n"
 ev=title_events(ts(0),ts(3.4),["EDC 스태프","왕복 20km 달린 썰"],"solid")
 for st,en,lines,_,_ in caps: ev+=box_events(ts(st),ts(en),lines,hl)
@@ -83,10 +83,13 @@ def teal(dark):
 
 EM={"검은 ":(0.10,0.07),"5천원":(0.14,0.07),"20km":(0.16,0.07),"유류비":(0.12,0.07),"돌이킬":(0.18,0.07)}
 EMPH={}
-for st,en,lines,si,txt in caps:
+LAG=0.20   # measured: zoom lands ~0.17-0.2s after the requested time; compensate so it hits the spoken word
+for st,en,lines,si,g in caps:
     for key,(dz,ramp) in EM.items():
-        if key in txt:
-            EMPH.setdefault(si,[]).append((st-offs[si][0],offs[si][2]+1.0,dz,ramp)); break
+        k=key.strip(); hit=[w for w in g if (w[2].rstrip(".,?")==k if len(k)<=2 else k in w[2])]
+        if hit:
+            wl=hit[0][0]-offs[si][1]          # spoken-word start, local to the clip
+            EMPH.setdefault(si,[]).append((max(wl-LAG,0),offs[si][2]+1.0,dz,ramp)); break
 def zexpr(i):
     bz=1.0 if i%2==0 else 1.08
     sm=lambda x:f"(({x})*({x})*(3-2*({x})))"
@@ -95,7 +98,7 @@ def zexpr(i):
         up=f"clip((in_time-{a:.2f})/{r},0,1)"; dn=f"clip((in_time-{b:.2f})/0.2,0,1)"
         parts.append(f"{dz}*{sm(up)}*(1-{sm(dn)})")
     return f"{bz}"+"".join("+"+p for p in parts)
-print("emphasis:",{k:[(round(a,1),round(b,1),dz) for a,b,dz,r in v] for k,v in EMPH.items()})
+print("zoom at output t:",[(round(offs[k][0]+a+LAG,2),dz) for k,v in EMPH.items() for a,b,dz,r in v])
 inp=[];fc=[];lab=""
 for i,((k,S,E),(o,s0,d)) in enumerate(zip(SEG,offs)):
     inp+=["-ss",f"{s0:.3f}","-t",f"{d:.3f}","-i",f"IMG_{k}.MOV","-ss",f"{s0:.3f}","-t",f"{d:.3f}","-i",f"d_{k}.wav"]
