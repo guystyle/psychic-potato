@@ -39,7 +39,7 @@ for k,S,E in SEG:
 TOTAL=t
 # captions
 caps=[]
-for (k,S,E),(o,s0,d) in zip(SEG,offs):
+for si,((k,S,E),(o,s0,d)) in enumerate(zip(SEG,offs)):
     ws=[]
     for a,b,w in WJ[k]:
         if S-0.05<=a<E-0.03 and w:
@@ -62,14 +62,13 @@ for (k,S,E),(o,s0,d) in zip(SEG,offs):
         en=o+(min(nxt,E+0.1)-s0)
         en=max(en,st+0.5); en=min(en,o+d)
         lines=wrap2([x[2].rstrip(".,?") if False else x[2] for x in g])
-        caps.append((st,en,[l.rstrip(".,?") for l in lines]))
+        caps.append((st,en,[l.rstrip(".,?") for l in lines],si," ".join(x[2] for x in g)))
 hdr=open("ti_cyan.ass").read().split("[Events]")[0]+"[Events]\nFormat: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text\n"
-ev=[f"Dialogue: 1,{ts(0)},{ts(3.4)},Hook,,0,0,0,,{{\\fad(150,200)}}EDC 스태프 출근길\\N나만 못 받은 연락",
-]
-for st,en,lines in caps: ev+=box_events(ts(st),ts(en),lines,hl)
+ev=title_events(ts(0),ts(3.4),["EDC 스태프","왕복 20km 달린 썰"],"solid")
+for st,en,lines,_,_ in caps: ev+=box_events(ts(st),ts(en),lines,hl)
 open("hero.ass","w").write(hdr+"\n".join(ev)+"\n")
 print("total",round(TOTAL,1),"caps",len(caps))
-for st,en,l in caps: print(f"{st:5.1f}-{en:5.1f}"," / ".join(l))
+for st,en,l,_,_ in caps: print(f"{st:5.1f}-{en:5.1f}"," / ".join(l))
 # video
 TM="zscale=t=linear:npl=203,format=gbrpf32le,zscale=p=bt709,tonemap=tonemap=hable:desat=0,zscale=t=bt709:m=bt709:r=tv:p=bt709,format=yuv420p"
 def teal(dark):
@@ -81,6 +80,22 @@ def teal(dark):
     dk=(",hqdn3d=6:5:8:6:%s,curves=all='0/0 0.015/0.22 0.05/0.42 0.18/0.70 0.5/0.90 1/1':%s,eq=saturation=0.55:contrast=1.08:%s,"
         "colorbalance=rs=-0.15:rm=-0.15:rh=-0.06:bs=0.05:bm=0.05:%s")%(en,en,en,en)
     return g+dk
+
+EM={"검은 ":(0.10,0.20),"5천원":(0.14,0.20),"20km":(0.16,0.20),"유류비":(0.12,0.20),"돌이킬":(0.18,0.55)}
+EMPH={}
+for st,en,lines,si,txt in caps:
+    for key,(dz,ramp) in EM.items():
+        if key in txt:
+            EMPH.setdefault(si,[]).append((st-offs[si][0],en-offs[si][0],dz,ramp)); break
+def zexpr(i):
+    bz=1.0 if i%2==0 else 1.08
+    sm=lambda x:f"(({x})*({x})*(3-2*({x})))"
+    parts=[]
+    for a,b,dz,r in EMPH.get(i,[]):
+        up=f"clip((in_time-{a:.2f})/{r},0,1)"; dn=f"clip((in_time-{b:.2f})/0.2,0,1)"
+        parts.append(f"{dz}*{sm(up)}*(1-{sm(dn)})")
+    return f"{bz}"+"".join("+"+p for p in parts)
+print("emphasis:",{k:[(round(a,1),round(b,1),dz) for a,b,dz,r in v] for k,v in EMPH.items()})
 inp=[];fc=[];lab=""
 for i,((k,S,E),(o,s0,d)) in enumerate(zip(SEG,offs)):
     inp+=["-ss",f"{s0:.3f}","-t",f"{d:.3f}","-i",f"IMG_{k}.MOV","-ss",f"{s0:.3f}","-t",f"{d:.3f}","-i",f"d_{k}.wav"]
@@ -88,7 +103,7 @@ for i,((k,S,E),(o,s0,d)) in enumerate(zip(SEG,offs)):
     cw=int(2160/z)//2*2; ch=int(3840/z)//2*2
     dim,dark=(runs_for(s0,d) if k=="7469" else ([],[]))
     pre=("hqdn3d=4:3:5:4,"+",".join(f"eq=gamma=1.5:contrast=1.05:enable='between(t,{a:.2f},{b:.2f})'" for a,b in dim)+",") if dim else ""
-    fc.append(f"[{2*i}:v]{TM},{pre}crop={cw}:{ch},scale=1080:1920:flags=lanczos,{teal(dark)},fps=30,setpts=PTS-STARTPTS[v{i}]")
+    fc.append(f"[{2*i}:v]{TM},{pre}scale=1620:2880:flags=lanczos,fps=30,zoompan=z='{zexpr(i)}':x='(iw-iw/zoom)*0.55':y='(ih-ih/zoom)*0.40':d=1:s=1620x2880:fps=30,scale=1080:1920:flags=lanczos,{teal(dark)},setpts=PTS-STARTPTS[v{i}]")
     fc.append(f"[{2*i+1}:a]aresample=48000,afade=t=in:d=0.03,afade=t=out:st={d-0.05:.3f}:d=0.05,asetpts=PTS-STARTPTS[a{i}]")
     lab+=f"[v{i}][a{i}]"
 fc.append(f"{lab}concat=n={len(SEG)}:v=1:a=1[vc][ac]")
