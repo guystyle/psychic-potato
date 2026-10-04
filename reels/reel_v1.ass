@@ -1,0 +1,52 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Cap,WenQuanYi Zen Hei,80,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,8,2,2,60,60,520,1
+Style: Hook,WenQuanYi Zen Hei,92,&H00101010,&H00101010,&H0000D7FF,&H0000D7FF,-1,0,0,0,100,100,0,0,3,14,0,8,60,60,300,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 1,0:00:00.00,0:00:03.20,Hook,,0,0,0,,{\fad(150,200)}영종도에서 길 한 번 잘못 들면?
+Dialogue: 0,0:00:00.04,0:00:01.46,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}{\c&H00D7FF&}영종도가{\c&HFFFFFF&} 되게
+Dialogue: 0,0:00:01.46,0:00:03.94,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}신기한게
+Dialogue: 0,0:00:03.94,0:00:07.20,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}그 길을 한번 잘못들면
+Dialogue: 0,0:00:07.20,0:00:10.04,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}한참을 가야되더라구요
+Dialogue: 0,0:00:10.14,0:00:13.18,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}어제도 공항 근처에서
+Dialogue: 0,0:00:13.18,0:00:14.82,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}길을 한번 잘못들어서
+Dialogue: 0,0:00:14.82,0:00:16.46,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}서울쪽으로 빠져나와서
+Dialogue: 0,0:00:16.46,0:00:17.52,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}금방 차 돌릴 수 있는
+Dialogue: 0,0:00:17.52,0:00:18.40,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}데가 나오겠지
+Dialogue: 0,0:00:18.40,0:00:20.74,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}생각했는데 {\c&H00D7FF&}10km를{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.74,0:00:23.20,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}가서 하늘 도시까지
+Dialogue: 0,0:00:23.20,0:00:24.92,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}들어와서 거기서 다시
+Dialogue: 0,0:00:24.92,0:00:26.52,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}차를 돌려서 다시
+Dialogue: 0,0:00:26.52,0:00:27.94,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}돌아가고
+Dialogue: 0,0:00:28.04,0:00:29.90,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}오늘 검은 옷을
+Dialogue: 0,0:00:29.90,0:00:32.82,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}입으라고 기존에 연락이
+Dialogue: 0,0:00:32.82,0:00:33.48,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}됐었대요
+Dialogue: 0,0:00:33.48,0:00:35.00,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}전 연락받은게 없어서
+Dialogue: 0,0:00:35.00,0:00:36.14,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}검은색 바지를 사러
+Dialogue: 0,0:00:36.14,0:00:36.92,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}다이소를 갔단
+Dialogue: 0,0:00:36.92,0:00:37.42,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}말이에요
+Dialogue: 0,0:00:37.30,0:00:40.08,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}요새 다이소에서 검은색
+Dialogue: 0,0:00:40.08,0:00:43.10,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}바지 프리스
+Dialogue: 0,0:00:43.10,0:00:44.52,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}후드티 이런거 {\c&H00D7FF&}5천원{\c&HFFFFFF&}
+Dialogue: 0,0:00:44.52,0:00:45.22,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}사거든요
+Dialogue: 0,0:00:45.22,0:00:46.32,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}퀄리티가 나쁘지
+Dialogue: 0,0:00:46.32,0:00:46.70,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}않네요
+Dialogue: 0,0:00:46.74,0:00:48.90,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}그래서 생각해보니까
+Dialogue: 0,0:00:48.90,0:00:50.60,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}{\c&H00D7FF&}기름값을{\c&HFFFFFF&} 너무 많이 쓴
+Dialogue: 0,0:00:50.60,0:00:52.04,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}것 같아요 지금
+Dialogue: 0,0:00:52.16,0:00:53.16,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}제가 돈을 받고 일하는
+Dialogue: 0,0:00:53.16,0:00:54.04,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}거에 비해 지금
+Dialogue: 0,0:00:54.04,0:00:54.90,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}{\c&H00D7FF&}유류비를{\c&HFFFFFF&} 너무 많이
+Dialogue: 0,0:00:54.90,0:00:55.74,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}써가지고
+Dialogue: 0,0:00:55.84,0:00:57.74,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}{\c&H00D7FF&}영종도는{\c&HFFFFFF&} 생각보다
+Dialogue: 0,0:00:57.84,0:01:00.18,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}{\c&H00D7FF&}훨씬{\c&HFFFFFF&} 넓다
+Dialogue: 0,0:01:00.18,0:01:01.94,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}그리고 길을 한번 잘못 들면
+Dialogue: 0,0:01:01.94,0:01:04.34,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}{\c&H00D7FF&}돌이킬{\c&HFFFFFF&} 수 없을 수 있죠
