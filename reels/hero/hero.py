@@ -81,12 +81,12 @@ def teal(dark):
         "colorbalance=rs=-0.15:rm=-0.15:rh=-0.06:bs=0.05:bm=0.05:%s")%(en,en,en,en)
     return g+dk
 
-EM={"검은 ":(0.10,0.20),"5천원":(0.14,0.20),"20km":(0.16,0.20),"유류비":(0.12,0.20),"돌이킬":(0.18,0.55)}
+EM={"검은 ":(0.10,0.07),"5천원":(0.14,0.07),"20km":(0.16,0.07),"유류비":(0.12,0.07),"돌이킬":(0.18,0.07)}
 EMPH={}
 for st,en,lines,si,txt in caps:
     for key,(dz,ramp) in EM.items():
         if key in txt:
-            EMPH.setdefault(si,[]).append((st-offs[si][0],en-offs[si][0],dz,ramp)); break
+            EMPH.setdefault(si,[]).append((st-offs[si][0],offs[si][2]+1.0,dz,ramp)); break
 def zexpr(i):
     bz=1.0 if i%2==0 else 1.08
     sm=lambda x:f"(({x})*({x})*(3-2*({x})))"
