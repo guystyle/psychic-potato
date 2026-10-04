@@ -1,0 +1,32 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Cap,Black Han Sans,96,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,10,5,2,70,70,470,1
+Style: Hook,Black Han Sans,100,&H00101010,&H00101010,&H0000D7FF,&H0000D7FF,0,0,0,0,100,100,0,0,3,18,0,8,70,70,260,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 1,0:00:00.00,0:00:03.40,Hook,,0,0,0,,{\fad(150,200)}받는 돈에 비해\N기름값을 너무 썼다 (4/4)
+Dialogue: 0,0:00:00.04,0:00:01.40,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}어쨌든 그걸 사가지고
+Dialogue: 0,0:00:01.40,0:00:02.84,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}다시 돌아오는데 그
+Dialogue: 0,0:00:02.84,0:00:05.08,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}왕복만 한 {\c&H00D7FF&}20km{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.20,0:00:06.20,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}제가 돈을 받고 일하는
+Dialogue: 0,0:00:06.20,0:00:07.48,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}거에 비해 지금 {\c&H00D7FF&}유류비를{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.48,0:00:08.78,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}너무 많이 써가지고
+Dialogue: 0,0:00:08.88,0:00:10.78,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}약간 이게 맞나라는
+Dialogue: 0,0:00:10.78,0:00:11.68,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}생각이 들긴 한데
+Dialogue: 0,0:00:11.78,0:00:13.82,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}오늘은 좀 그래도 {\c&H00D7FF&}촬영이{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.82,0:00:15.56,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}어제보다 더 많을 것
+Dialogue: 0,0:00:15.56,0:00:16.96,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}같아서 그 부분을 좀
+Dialogue: 0,0:00:16.96,0:00:19.64,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}같이 도와드려보려고 가고
+Dialogue: 0,0:00:19.64,0:00:20.98,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}있습니다
+Dialogue: 0,0:00:21.08,0:00:22.98,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}{\c&H00D7FF&}영종도는{\c&HFFFFFF&} 생각보다
+Dialogue: 0,0:00:23.08,0:00:25.42,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}{\c&H00D7FF&}훨씬{\c&HFFFFFF&} 넓다
+Dialogue: 0,0:00:25.42,0:00:27.18,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}그리고 길을 한번 잘못 들면
+Dialogue: 0,0:00:27.18,0:00:29.58,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}{\c&H00D7FF&}돌이킬{\c&HFFFFFF&} 수 없을 수 있죠
+Dialogue: 0,0:00:29.62,0:00:31.24,Cap,,0,0,0,,{\fad(40,0)\fscx88\fscy88\t(0,110,\fscx100\fscy100)}어쨌든 가보겠습니다
