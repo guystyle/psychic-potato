@@ -1,0 +1,135 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Cap,ZCOOL QingKe HuangYou,120,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,88,100,0,0,1,6,0,2,60,60,470,1
+Style: Hook,ZCOOL QingKe HuangYou,120,&H00101010,&H00101010,&H00FFE500,&H00FFE500,0,0,0,0,88,100,0,0,3,18,0,8,60,60,260,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 1,0:00:00.00,0:00:03.40,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFE500&\1a&H00&\bord0\shad0}m 113 240 l 967 240 967 524 113 524{\p0}
+Dialogue: 3,0:00:00.00,0:00:03.40,Cap,,0,0,0,,{\an5\pos(540,396)\1c&H101010&\3c&H101010&\bord3\shad0}EDC韩国工作人员\N往返开了20km的故事
+Dialogue: 1,0:00:00.04,0:00:03.74,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&H000000&\1a&H8C&\3c&HFFE500&\3a&H00&\bord4\shad0}m 344 1158 l 736 1158 736 1450 344 1450{\p0}
+Dialogue: 2,0:00:00.04,0:00:03.74,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 333 1147 l 355 1147 355 1169 333 1169{\p0}
+Dialogue: 2,0:00:00.04,0:00:03.74,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 725 1147 l 747 1147 747 1169 725 1169{\p0}
+Dialogue: 2,0:00:00.04,0:00:03.74,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 725 1439 l 747 1439 747 1461 725 1461{\p0}
+Dialogue: 2,0:00:00.04,0:00:03.74,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 333 1439 l 355 1439 355 1461 333 1461{\p0}
+Dialogue: 3,0:00:00.04,0:00:03.74,Cap,,0,0,0,,{\an5\pos(540,1318)}今天要穿\N{\c&HFFE500&}黑色{\c&HFFFFFF&}衣服
+Dialogue: 1,0:00:03.74,0:00:05.48,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&H000000&\1a&H8C&\3c&HFFE500&\3a&H00&\bord4\shad0}m 304 1158 l 776 1158 776 1450 304 1450{\p0}
+Dialogue: 2,0:00:03.74,0:00:05.48,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 293 1147 l 315 1147 315 1169 293 1169{\p0}
+Dialogue: 2,0:00:03.74,0:00:05.48,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 765 1147 l 787 1147 787 1169 765 1169{\p0}
+Dialogue: 2,0:00:03.74,0:00:05.48,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 765 1439 l 787 1439 787 1461 765 1461{\p0}
+Dialogue: 2,0:00:03.74,0:00:05.48,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 293 1439 l 315 1439 315 1461 293 1461{\p0}
+Dialogue: 3,0:00:03.74,0:00:05.48,Cap,,0,0,0,,{\an5\pos(540,1318)}听说之前\N已经通知了
+Dialogue: 1,0:00:05.48,0:00:07.00,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&H000000&\1a&H8C&\3c&HFFE500&\3a&H00&\bord4\shad0}m 264 1278 l 816 1278 816 1450 264 1450{\p0}
+Dialogue: 2,0:00:05.48,0:00:07.00,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 253 1267 l 275 1267 275 1289 253 1289{\p0}
+Dialogue: 2,0:00:05.48,0:00:07.00,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 805 1267 l 827 1267 827 1289 805 1289{\p0}
+Dialogue: 2,0:00:05.48,0:00:07.00,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 805 1439 l 827 1439 827 1461 805 1461{\p0}
+Dialogue: 2,0:00:05.48,0:00:07.00,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 253 1439 l 275 1439 275 1461 253 1461{\p0}
+Dialogue: 3,0:00:05.48,0:00:07.00,Cap,,0,0,0,,{\an5\pos(540,1378)}我没收到通知
+Dialogue: 1,0:00:07.00,0:00:08.14,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&H000000&\1a&H8C&\3c&HFFE500&\3a&H00&\bord4\shad0}m 264 1278 l 816 1278 816 1450 264 1450{\p0}
+Dialogue: 2,0:00:07.00,0:00:08.14,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 253 1267 l 275 1267 275 1289 253 1289{\p0}
+Dialogue: 2,0:00:07.00,0:00:08.14,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 805 1267 l 827 1267 827 1289 805 1289{\p0}
+Dialogue: 2,0:00:07.00,0:00:08.14,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 805 1439 l 827 1439 827 1461 805 1461{\p0}
+Dialogue: 2,0:00:07.00,0:00:08.14,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 253 1439 l 275 1439 275 1461 253 1461{\p0}
+Dialogue: 3,0:00:07.00,0:00:08.14,Cap,,0,0,0,,{\an5\pos(540,1378)}去买{\c&HFFE500&}黑色{\c&HFFFFFF&}裤子
+Dialogue: 1,0:00:08.14,0:00:09.24,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&H000000&\1a&H8C&\3c&HFFE500&\3a&H00&\bord4\shad0}m 223 1278 l 857 1278 857 1450 223 1450{\p0}
+Dialogue: 2,0:00:08.14,0:00:09.24,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 212 1267 l 234 1267 234 1289 212 1289{\p0}
+Dialogue: 2,0:00:08.14,0:00:09.24,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 846 1267 l 868 1267 868 1289 846 1289{\p0}
+Dialogue: 2,0:00:08.14,0:00:09.24,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 846 1439 l 868 1439 868 1461 846 1461{\p0}
+Dialogue: 2,0:00:08.14,0:00:09.24,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 212 1439 l 234 1439 234 1461 212 1461{\p0}
+Dialogue: 3,0:00:08.14,0:00:09.24,Cap,,0,0,0,,{\an5\pos(540,1378)}所以去了{\c&HFFE500&}DAISO{\c&HFFFFFF&}
+Dialogue: 1,0:00:09.34,0:00:12.08,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&H000000&\1a&H8C&\3c&HFFE500&\3a&H00&\bord4\shad0}m 183 1278 l 897 1278 897 1450 183 1450{\p0}
+Dialogue: 2,0:00:09.34,0:00:12.08,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 172 1267 l 194 1267 194 1289 172 1289{\p0}
+Dialogue: 2,0:00:09.34,0:00:12.08,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 886 1267 l 908 1267 908 1289 886 1289{\p0}
+Dialogue: 2,0:00:09.34,0:00:12.08,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 886 1439 l 908 1439 908 1461 886 1461{\p0}
+Dialogue: 2,0:00:09.34,0:00:12.08,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 172 1439 l 194 1439 194 1461 172 1461{\p0}
+Dialogue: 3,0:00:09.34,0:00:12.08,Cap,,0,0,0,,{\an5\pos(540,1378)}最近{\c&HFFE500&}DAISO{\c&HFFFFFF&}的{\c&HFFE500&}黑色{\c&HFFFFFF&}
+Dialogue: 1,0:00:12.08,0:00:15.10,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&H000000&\1a&H8C&\3c&HFFE500&\3a&H00&\bord4\shad0}m 295 1278 l 785 1278 785 1450 295 1450{\p0}
+Dialogue: 2,0:00:12.08,0:00:15.10,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 284 1267 l 306 1267 306 1289 284 1289{\p0}
+Dialogue: 2,0:00:12.08,0:00:15.10,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 774 1267 l 796 1267 796 1289 774 1289{\p0}
+Dialogue: 2,0:00:12.08,0:00:15.10,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 774 1439 l 796 1439 796 1461 774 1461{\p0}
+Dialogue: 2,0:00:12.08,0:00:15.10,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 284 1439 l 306 1439 306 1461 284 1461{\p0}
+Dialogue: 3,0:00:12.08,0:00:15.10,Cap,,0,0,0,,{\an5\pos(540,1378)}裤子、抓绒衣
+Dialogue: 1,0:00:15.10,0:00:16.52,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&H000000&\1a&H8C&\3c&HFFE500&\3a&H00&\bord4\shad0}m 237 1158 l 843 1158 843 1450 237 1450{\p0}
+Dialogue: 2,0:00:15.10,0:00:16.52,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 226 1147 l 248 1147 248 1169 226 1169{\p0}
+Dialogue: 2,0:00:15.10,0:00:16.52,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 832 1147 l 854 1147 854 1169 832 1169{\p0}
+Dialogue: 2,0:00:15.10,0:00:16.52,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 832 1439 l 854 1439 854 1461 832 1461{\p0}
+Dialogue: 2,0:00:15.10,0:00:16.52,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 226 1439 l 248 1439 248 1461 226 1461{\p0}
+Dialogue: 3,0:00:15.10,0:00:16.52,Cap,,0,0,0,,{\an5\pos(540,1318)}连帽衫这些\N都是{\c&HFFE500&}5000韩元{\c&HFFFFFF&}
+Dialogue: 1,0:00:16.52,0:00:17.34,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&H000000&\1a&H8C&\3c&HFFE500&\3a&H00&\bord4\shad0}m 344 1278 l 736 1278 736 1450 344 1450{\p0}
+Dialogue: 2,0:00:16.52,0:00:17.34,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 333 1267 l 355 1267 355 1289 333 1289{\p0}
+Dialogue: 2,0:00:16.52,0:00:17.34,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 725 1267 l 747 1267 747 1289 725 1289{\p0}
+Dialogue: 2,0:00:16.52,0:00:17.34,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 725 1439 l 747 1439 747 1461 725 1461{\p0}
+Dialogue: 2,0:00:16.52,0:00:17.34,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 333 1439 l 355 1439 355 1461 333 1461{\p0}
+Dialogue: 3,0:00:16.52,0:00:17.34,Cap,,0,0,0,,{\an5\pos(540,1378)}就能买到
+Dialogue: 1,0:00:17.44,0:00:18.80,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&H000000&\1a&H8C&\3c&HFFE500&\3a&H00&\bord4\shad0}m 264 1278 l 816 1278 816 1450 264 1450{\p0}
+Dialogue: 2,0:00:17.44,0:00:18.80,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 253 1267 l 275 1267 275 1289 253 1289{\p0}
+Dialogue: 2,0:00:17.44,0:00:18.80,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 805 1267 l 827 1267 827 1289 805 1289{\p0}
+Dialogue: 2,0:00:17.44,0:00:18.80,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 805 1439 l 827 1439 827 1461 805 1461{\p0}
+Dialogue: 2,0:00:17.44,0:00:18.80,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 253 1439 l 275 1439 275 1461 253 1461{\p0}
+Dialogue: 3,0:00:17.44,0:00:18.80,Cap,,0,0,0,,{\an5\pos(540,1378)}总之买完之后
+Dialogue: 1,0:00:18.80,0:00:20.24,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&H000000&\1a&H8C&\3c&HFFE500&\3a&H00&\bord4\shad0}m 344 1278 l 736 1278 736 1450 344 1450{\p0}
+Dialogue: 2,0:00:18.80,0:00:20.24,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 333 1267 l 355 1267 355 1289 333 1289{\p0}
+Dialogue: 2,0:00:18.80,0:00:20.24,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 725 1267 l 747 1267 747 1289 725 1289{\p0}
+Dialogue: 2,0:00:18.80,0:00:20.24,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 725 1439 l 747 1439 747 1461 725 1461{\p0}
+Dialogue: 2,0:00:18.80,0:00:20.24,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 333 1439 l 355 1439 355 1461 333 1461{\p0}
+Dialogue: 3,0:00:18.80,0:00:20.24,Cap,,0,0,0,,{\an5\pos(540,1378)}再开回来
+Dialogue: 1,0:00:20.24,0:00:22.48,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&H000000&\1a&H8C&\3c&HFFE500&\3a&H00&\bord4\shad0}m 321 1158 l 759 1158 759 1450 321 1450{\p0}
+Dialogue: 2,0:00:20.24,0:00:22.48,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 310 1147 l 332 1147 332 1169 310 1169{\p0}
+Dialogue: 2,0:00:20.24,0:00:22.48,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 748 1147 l 770 1147 770 1169 748 1169{\p0}
+Dialogue: 2,0:00:20.24,0:00:22.48,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 748 1439 l 770 1439 770 1461 748 1461{\p0}
+Dialogue: 2,0:00:20.24,0:00:22.48,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 310 1439 l 332 1439 332 1461 310 1461{\p0}
+Dialogue: 3,0:00:20.24,0:00:22.48,Cap,,0,0,0,,{\an5\pos(540,1318)}来回就有\N大概{\c&HFFE500&}20km{\c&HFFFFFF&}
+Dialogue: 1,0:00:22.60,0:00:23.60,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&H000000&\1a&H8C&\3c&HFFE500&\3a&H00&\bord4\shad0}m 304 1158 l 776 1158 776 1450 304 1450{\p0}
+Dialogue: 2,0:00:22.60,0:00:23.60,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 293 1147 l 315 1147 315 1169 293 1169{\p0}
+Dialogue: 2,0:00:22.60,0:00:23.60,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 765 1147 l 787 1147 787 1169 765 1169{\p0}
+Dialogue: 2,0:00:22.60,0:00:23.60,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 765 1439 l 787 1439 787 1461 765 1461{\p0}
+Dialogue: 2,0:00:22.60,0:00:23.60,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 293 1439 l 315 1439 315 1461 293 1461{\p0}
+Dialogue: 3,0:00:22.60,0:00:23.60,Cap,,0,0,0,,{\an5\pos(540,1318)}我是拿报酬\N来工作的
+Dialogue: 1,0:00:23.60,0:00:24.88,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&H000000&\1a&H8C&\3c&HFFE500&\3a&H00&\bord4\shad0}m 344 1158 l 736 1158 736 1450 344 1450{\p0}
+Dialogue: 2,0:00:23.60,0:00:24.88,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 333 1147 l 355 1147 355 1169 333 1169{\p0}
+Dialogue: 2,0:00:23.60,0:00:24.88,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 725 1147 l 747 1147 747 1169 725 1169{\p0}
+Dialogue: 2,0:00:23.60,0:00:24.88,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 725 1439 l 747 1439 747 1461 725 1461{\p0}
+Dialogue: 2,0:00:23.60,0:00:24.88,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 333 1439 l 355 1439 355 1461 333 1461{\p0}
+Dialogue: 3,0:00:23.60,0:00:24.88,Cap,,0,0,0,,{\an5\pos(540,1318)}相比之下\N{\c&HFFE500&}油费{\c&HFFFFFF&}
+Dialogue: 1,0:00:24.88,0:00:26.18,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&H000000&\1a&H8C&\3c&HFFE500&\3a&H00&\bord4\shad0}m 304 1278 l 776 1278 776 1450 304 1450{\p0}
+Dialogue: 2,0:00:24.88,0:00:26.18,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 293 1267 l 315 1267 315 1289 293 1289{\p0}
+Dialogue: 2,0:00:24.88,0:00:26.18,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 765 1267 l 787 1267 787 1289 765 1289{\p0}
+Dialogue: 2,0:00:24.88,0:00:26.18,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 765 1439 l 787 1439 787 1461 765 1461{\p0}
+Dialogue: 2,0:00:24.88,0:00:26.18,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 293 1439 l 315 1439 315 1461 293 1461{\p0}
+Dialogue: 3,0:00:24.88,0:00:26.18,Cap,,0,0,0,,{\an5\pos(540,1378)}花得太多了
+Dialogue: 1,0:00:26.28,0:00:28.18,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&H000000&\1a&H8C&\3c&HFFE500&\3a&H00&\bord4\shad0}m 344 1158 l 736 1158 736 1450 344 1450{\p0}
+Dialogue: 2,0:00:26.28,0:00:28.18,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 333 1147 l 355 1147 355 1169 333 1169{\p0}
+Dialogue: 2,0:00:26.28,0:00:28.18,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 725 1147 l 747 1147 747 1169 725 1169{\p0}
+Dialogue: 2,0:00:26.28,0:00:28.18,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 725 1439 l 747 1439 747 1461 725 1461{\p0}
+Dialogue: 2,0:00:26.28,0:00:28.18,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 333 1439 l 355 1439 355 1461 333 1461{\p0}
+Dialogue: 3,0:00:26.28,0:00:28.18,Cap,,0,0,0,,{\an5\pos(540,1318)}永宗岛比\N想象中
+Dialogue: 1,0:00:28.28,0:00:30.62,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&H000000&\1a&H8C&\3c&HFFE500&\3a&H00&\bord4\shad0}m 385 1278 l 695 1278 695 1450 385 1450{\p0}
+Dialogue: 2,0:00:28.28,0:00:30.62,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 374 1267 l 396 1267 396 1289 374 1289{\p0}
+Dialogue: 2,0:00:28.28,0:00:30.62,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 684 1267 l 706 1267 706 1289 684 1289{\p0}
+Dialogue: 2,0:00:28.28,0:00:30.62,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 684 1439 l 706 1439 706 1461 684 1461{\p0}
+Dialogue: 2,0:00:28.28,0:00:30.62,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 374 1439 l 396 1439 396 1461 374 1461{\p0}
+Dialogue: 3,0:00:28.28,0:00:30.62,Cap,,0,0,0,,{\an5\pos(540,1378)}{\c&HFFE500&}大得多{\c&HFFFFFF&}
+Dialogue: 1,0:00:30.62,0:00:32.38,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&H000000&\1a&H8C&\3c&HFFE500&\3a&H00&\bord4\shad0}m 344 1158 l 736 1158 736 1450 344 1450{\p0}
+Dialogue: 2,0:00:30.62,0:00:32.38,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 333 1147 l 355 1147 355 1169 333 1169{\p0}
+Dialogue: 2,0:00:30.62,0:00:32.38,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 725 1147 l 747 1147 747 1169 725 1169{\p0}
+Dialogue: 2,0:00:30.62,0:00:32.38,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 725 1439 l 747 1439 747 1461 725 1461{\p0}
+Dialogue: 2,0:00:30.62,0:00:32.38,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 333 1439 l 355 1439 355 1461 333 1461{\p0}
+Dialogue: 3,0:00:30.62,0:00:32.38,Cap,,0,0,0,,{\an5\pos(540,1318)}而且一旦\N走错路
+Dialogue: 1,0:00:32.38,0:00:34.72,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&H000000&\1a&H8C&\3c&HFFE500&\3a&H00&\bord4\shad0}m 304 1158 l 776 1158 776 1450 304 1450{\p0}
+Dialogue: 2,0:00:32.38,0:00:34.72,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 293 1147 l 315 1147 315 1169 293 1169{\p0}
+Dialogue: 2,0:00:32.38,0:00:34.72,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 765 1147 l 787 1147 787 1169 765 1169{\p0}
+Dialogue: 2,0:00:32.38,0:00:34.72,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 765 1439 l 787 1439 787 1461 765 1461{\p0}
+Dialogue: 2,0:00:32.38,0:00:34.72,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 293 1439 l 315 1439 315 1461 293 1461{\p0}
+Dialogue: 3,0:00:32.38,0:00:34.72,Cap,,0,0,0,,{\an5\pos(540,1318)}可能就\N{\c&HFFE500&}回不了头{\c&HFFFFFF&}了
+Dialogue: 1,0:00:34.82,0:00:36.44,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&H000000&\1a&H8C&\3c&HFFE500&\3a&H00&\bord4\shad0}m 264 1278 l 816 1278 816 1450 264 1450{\p0}
+Dialogue: 2,0:00:34.82,0:00:36.44,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 253 1267 l 275 1267 275 1289 253 1289{\p0}
+Dialogue: 2,0:00:34.82,0:00:36.44,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 805 1267 l 827 1267 827 1289 805 1289{\p0}
+Dialogue: 2,0:00:34.82,0:00:36.44,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 805 1439 l 827 1439 827 1461 805 1461{\p0}
+Dialogue: 2,0:00:34.82,0:00:36.44,Cap,,0,0,0,,{\an7\pos(0,0)\fscx100\fscy100\p1\1c&HFFFFFF&\1a&H00&\3c&HFFE500&\bord3\shad0}m 253 1439 l 275 1439 275 1461 253 1461{\p0}
+Dialogue: 3,0:00:34.82,0:00:36.44,Cap,,0,0,0,,{\an5\pos(540,1378)}总之，出发了
